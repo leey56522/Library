@@ -1,0 +1,143 @@
+body {
+    background-color:#EBDDEE;
+    color: #404E88;
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background-color: #C8CDE5;
+    font-size: 30px;
+    padding: 1px;
+    border-bottom: 3px double #404E88;
+}
+
+.title h1 {
+    margin-left: 70px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eachBook {
+    width: 280px;
+    height: 400px;
+    margin: 40px;
+    background-color: #C8CDE5;
+    color: #404E88;
+    padding: 10px 5px 10px 5px;
+    border: 3px double #404E88;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.eachInfo {
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#finished {
+    color: green;
+    background-color: lightgreen;
+    padding: 5px 30px 5px 30px;
+    border: 3px outset lightgreen;
+}
+
+#finished:hover {
+    background-color: mediumspringgreen;
+    border: 3px outset mediumspringgreen;
+}
+#finished:active {
+    border: 3px inset mediumspringgreen;
+}
+
+
+#unfinished {
+    color: darkred;
+    background-color: lightpink;
+    padding: 5px 30px 5px 30px;
+    border: 3px outset lightpink;
+}
+
+#unfinished:hover {
+    background-color: peachpuff;
+    border: 3px outset peachpuff;
+}
+#unfinished:active {
+    border: 3px inset peachpuff;
+}
+
+button {
+    background: #404E88;
+    color: white;
+    margin-top: 10px;
+    margin-left: 45%;
+    font-size: 30px;
+    padding: 5px 30px 5px 30px;
+    border: 3px outset #404E88;
+}
+
+button:active {
+    border: 3px inset #404E88;
+}
+
+.remove {
+    color: lightgoldenrodyellow;
+    background-color: darkred;
+    padding: 5px 30px 5px 30px;
+    border: 3px outset darkred;
+}
+
+.remove:active {
+    border: 3px inset darkred;
+}
+
+#newBook {
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    background: #C8CDE5;
+    border: 3px double #404E88;
+    width: 400px;
+    height: 450px;
+    box-shadow: 7px 7px #404E88;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#submitOrcancel {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#submitOrcancel p {
+    font-size: 25px;
+    background: #404E88;
+    color: white;
+    border: 3px outset #404E88;
+    padding: 5px;
+    font-weight: 500;
+}
+
+#submitOrcancel p:active {
+    border: 3px inset #404E88;
+}
+
+label {
+    font-size: 25px;
+}
+
+.textInput {
+    font-size: 20px;
+}
